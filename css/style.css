@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f6ff;
+  height: 100vh;
+}
+.main {
+  width: 450px;
+}
+form input {
+  height: 2.5rem;
+  padding: 1rem 2rem;
+}
+form input:focus {
+  outline: none;
+}
+form .icon1,
+form .icon2 {
+  transform: translateY(-50%);
+  left: 10px;
+}
+form .icon1 {
+  top: 20px;
+}
+form .icon2 {
+  top: calc((166px / 2));
+}
